@@ -1,3 +1,5 @@
+package array.problem;
+
 public class ArrayRotateToRight {
 
     public static void main(String[] args) {
