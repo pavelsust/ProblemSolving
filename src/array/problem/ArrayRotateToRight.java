@@ -9,8 +9,8 @@ public class ArrayRotateToRight {
         for (int i =0 ; i<arr.length; i++){
             System.out.println(arr[i]);
         }
-    }
 
+    }
 
     public static void arrayRotateToRight(int[]array, int n){
         int temp = array[n-1];

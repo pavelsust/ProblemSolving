@@ -5,17 +5,6 @@ public class TestMin {
     public static void main(String[] args) {
         int[]array = {1, 2, 3, 50, 100};
 
-        //System.out.println(findMin(array));
-
-//        for (int i =0; i<2 ; i++){
-//            rotateLeft(array);
-//        }
-//
-//        for (int i =0 ; i<array.length; i++){
-//            System.out.println(array[i]);
-//        }
-//
-
         for (int i = 0 ; i<2 ; i++){
             rotateRight(array);
         }
