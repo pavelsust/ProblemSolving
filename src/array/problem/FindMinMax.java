@@ -4,8 +4,10 @@ public class FindMinMax {
 
     public static void main(String[] args) {
         int[] array = {1,2 ,3, 4, 5, 100};
+
         System.out.println(findMax(array));
         System.out.println(findMin(array));
+
     }
 
     public static int findMax(int[] array){
@@ -18,6 +20,7 @@ public class FindMinMax {
         }
         return result; // return result
     }
+
     public static int findMin(int[] array){
         int result= 999999; // pick the bigger one so that we can compare with others
 

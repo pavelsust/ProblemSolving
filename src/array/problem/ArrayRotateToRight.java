@@ -12,7 +12,6 @@ public class ArrayRotateToRight {
     }
 
 
-
     public static void arrayRotateToRight(int[]array, int n){
         int temp = array[n-1];
         for (int i = n-1 ; i>0 ; i--){
