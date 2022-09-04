@@ -23,7 +23,7 @@ public class PangramsSentence {
         }
 
         // Return false if any character is unmarked
-        for (int i = 0; i <= 25; i++)
+        for (int i = 0; i < 26; i++)
             if (!marks[i])
                 return (false);
 
