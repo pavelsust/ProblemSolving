@@ -2,7 +2,7 @@ package stringproblem;
 
 public class MostFrequentLetter {
     public static void main(String[] args) {
-        String sentence = "bbbbaaaadddddd";
+        String sentence = "aaaabcdd";
         System.out.println(getFrequentLetter(sentence));
     }
 
@@ -27,9 +27,10 @@ public class MostFrequentLetter {
             }
             if (previousCount<count){
                 previousCount = count;
-                count =0;
                 result = value;
+                System.out.println(result);
             }
+            count =0;
         }
         return result;
     }

@@ -23,10 +23,8 @@ public class LeetCode347 {
             }
 
             if (previousCount<count){
-                previousCount = count;
                 result[i] = value;
                 count=0;
-                previousCount=0;
             }
         }
 
