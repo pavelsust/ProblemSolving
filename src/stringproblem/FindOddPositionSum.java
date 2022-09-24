@@ -14,7 +14,7 @@ public class FindOddPositionSum extends Show {
 
     public static int getOddPositionSum(int[] array){
         int result = 0;
-        for (int i =0; i <array.length; i = i+2){
+        for (int i =0; i < array.length; i = i+2){
             result = result+array[i];
         }
         return result;

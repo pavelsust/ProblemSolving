@@ -4,10 +4,10 @@ public class PangramsSentence {
 
     public static void main(String[] args) {
         String str = "The quick brown fox jumps over the lazy dog";
-        System.out.println(checkPanfram(str));
+        System.out.println(checkPangrams(str));
     }
 
-    public static boolean checkPanfram(String s){
+    public static boolean checkPangrams(String s){
         boolean[] marks = new boolean[26];
         int index =0;
 
